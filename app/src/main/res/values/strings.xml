@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">한빛교회</string>
+
+    <string-array name="nav_drawer_string">
+        <item>교회 소개</item>
+        <item>인사말</item>
+        <item>섬기는 이들</item>
+        <item>오시는 길</item>
+        <item>예배 안내</item>
+        <item>설교 동영상</item>
+        <item>설교 나눔</item>
+        <item>성경 암송</item>
+        <item>목회 칼럼</item>
+        <item>말씀의 씨앗</item>
+        <item>교회 소식</item>
+        <item>금주 사역</item>
+        <item>문화 학교</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+    </array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+</resources>
