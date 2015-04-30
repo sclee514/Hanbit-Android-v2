@@ -131,7 +131,22 @@ public class MainActivity extends ActionBarActivity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            int curMenuPosition = getArguments().getInt(ARG_SECTION_NUMBER);
+            int curLayout;
+
+            switch (curMenuPosition)
+            {
+                case 1:
+                case 2:
+                case 3:
+                    curLayout = R.layout.fragment_map;
+                    break;
+                default:
+                    curLayout = R.layout.fragment_main;
+                    break;
+            }
+
+            View rootView = inflater.inflate(curLayout, container, false);
             return rootView;
         }
 

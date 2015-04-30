@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,8 +11,8 @@
     tools:context=".MainActivity$PlaceholderFragment">
 
     <TextView
-        android:id="@+id/section_label"
-        android:text="main view!!"
+        android:id="@+id/map_label"
+        android:text="Hello World in map view!!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
